@@ -1,0 +1,83 @@
+header{
+    z-index: 2;
+    text-align: left;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: "Times New Roman", "Arial Black", "Lucida Handwriting";
+    color: rgb(0,0,0);
+}
+
+html{
+  background: url("images/Bathroom.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+fieldset{
+  border: 0;
+}
+
+.heading{
+    background-image: url("images/heading.jpg");
+    height: 160px;
+    background-position: bottom;
+    top: 200px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: thin solid;
+}
+
+.container{
+    text-align: center;
+}
+
+.navBar{
+  text-align: center;
+  padding: 20px;
+}
+
+a.button{
+ background: rgba(255,255,255,0.6);
+ border:1px solid black;
+ border-radius:5px;
+ color: black;
+ padding:10px 10px 10px;
+}
+
+.contentBubble{
+    background: rgba(255,255,255,0.6);
+    width: 50%;
+    minimum-height: 500px;
+    border-radius: 30px;
+    margin-left: 25%;
+}
+
+#searchBubble{
+  width: 100%;
+  margin: 0;
+}
+
+#pic1{
+  display: none !important;
+}
+
+#pic3{
+  display: none !important;
+}
+
+#contactUsSplit{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#contactPic{
+    display: none !important;
+}
+
+#locations{
+    padding: 20px;
+}
